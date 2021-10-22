@@ -232,7 +232,7 @@
                 </div>
             </div>
         </section>
-        <audio autoplay>
+        <audio id="theme" loop>
             <source src="./audio/themeQuiter.ogg" type="audio/ogg">
         </audio>
         <!-- Bootstrap optional setup -> jQuery first, then Popper.js, then Bootstrap JS -->
@@ -251,5 +251,9 @@
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"
         ></script>
+        <script>
+            const myAudio = document.getElementById("theme")
+            myAudio.autoplay = true;
+        </script>
     </body>
 </html>
