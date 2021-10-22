@@ -5,9 +5,36 @@
 
 body {
     background-color: #23272a;
-    font-family: 'Pricedown', sans-serif;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ffab00;
 }
 
 #mainNavbar .navbar-brand {
+    font-family: 'Pricedown', sans-serif;
+    color: #ffab00;
+    font-size: 2rem;
+}
+
+.branding {
+    font-family: 'Pricedown';
+}
+
+img {
+    display: block;
+}
+
+#headingGroup span {
     color: #ffab00;
 }

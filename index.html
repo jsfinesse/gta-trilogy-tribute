@@ -25,9 +25,17 @@
     </head>
 
     <body>
-        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-sm">
+        <nav
+            id="mainNavbar"
+            class="navbar navbar-dark bg-dark navbar-expand-sm py-0 fixed-top"
+        >
             <a href="" class="navbar-brand">GTA Tribute</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navbar">
+            <button
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#navLinks"
+                aria-label="toggle navbar"
+            >
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navLinks">
@@ -41,7 +49,26 @@
                 </ul>
             </div>
         </nav>
-        
+
+        <section class="container-fluid px-0">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div id="headingGroup" class="text-center d-none d-lg-block">
+                        <h2 class="text-center branding">20th<span>/</span>Anniversary</h2>
+                        <h2 class="text-center branding">20th<span>/</span>Anniversary</h2>
+                        <h2 class="text-center branding">20th<span>/</span>Anniversary</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img
+                        class="img-fluid mx-auto"
+                        src="./imgs/gta-trilogy.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </section>
+
         <!-- Bootstrap optional setup -> jQuery first, then Popper.js, then Bootstrap JS -->
         <script
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
